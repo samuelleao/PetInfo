@@ -11,14 +11,20 @@ export const Button = styled('button', {
     color: "$gray900",
     fontWeight: "$2",
     "&:focus-visible":{
-        outlineColor: "$gray100 "
+        outlineColor: "$gray100"
+    },
+    "&:hover": {
+        background: "$brand200",
     },
     variants: {
         outline: {
             true: {
                 background: "transparent",
                 color: "$gray100",
-                borderColor: "$gray600"
+                borderColor: "$gray600",
+                "&:hover": {
+                    background: "$gray800",
+                }
             }
         }
     }
