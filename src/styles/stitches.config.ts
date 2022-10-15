@@ -23,9 +23,9 @@ export const {
       gray700: "hsl(210, 17%, 95%)",
       gray800: "hsl(210, 17%, 98%)",
       gray900: "hsl(200, 100%, 99%)",
-      alert1: "hsl(349, 57%, 50%)",
-      alert2: "hsl(349, 69%, 55%)",
-      sucess: "hsl(162, 88%, 26%)",
+      alert100: "hsl(349, 57%, 50%)",
+      alert200: "hsl(349, 69%, 55%)",
+      sucess100: "hsl(162, 88%, 26%)",
     },
     fontSizes: {
       1: "2rem",
